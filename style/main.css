@@ -1,0 +1,75 @@
+html{
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+
+    background: #272424;
+}
+
+/* box model
+
+modelo de caixa
+
+largura
+altura
+bordar
+margem
+cor
+alinhamento
+
+maneira de ser vista pelo html (display)
+
+*/
+
+#page-home {
+    height: 100vh;
+    background: url('../assets/persona\ fundo.png') no-repeat;
+    background-position: 50vw bottom;
+    background-size: 600px;
+    
+}
+
+#page-home .content{
+    width: 90%;
+    max-width: 1100px;
+
+    margin: 0 auto;
+
+
+}
+
+#page-home header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#page-home header a {
+
+    display: flex;
+}
+
+#page-home header span {
+    margin: 16px;
+    margin-left: 480px;
+    display: flex;
+    background: url('../assets/icone.png') no-repeat;
+    background-size: 35px;
+    background-position: center;
+    width: 35px;
+    height: 35px;
+
+    
+
+
+}
+#page-home header img{
+    background-image: url('../assets/persona\ logo.png') no-repeat;
+    background-size: 200px;
+
+    width: 400px;
+    height: 150px;
+
+}
